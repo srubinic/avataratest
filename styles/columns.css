@@ -1,0 +1,61 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+}
+
+[class*=".col-"]>*{
+    margin: 1rem;  
+}
+
+.col-2of12{width:16%;}
+.col-3of12{width: 25%;}
+.col-4of12{width:33.3%;}
+.col-5of12{width:42%;}
+.col-6of12{width: 50%;}
+.col-7of12{width: 58%;}
+.col-8of12{width:66%;}
+.col-9of12{width: 75%;}
+.col-10-12{width: 83%;}
+.col-11of12{width: 92%;}
+.col-12of12{width: 100%;}
+
+.canvas{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*----------------------------------------MEDIA QUERIES-------------*/
+
+@media only screen and (max-width:22.5rem){
+    .col-4of12{width: 100%;}
+    .col-6of12{width: 100%;}
+    .col-2of12{width: 100%;}
+    .row{width: 100%;}
+    #topBtn{display: none;}
+    #navbtn{visibility: visible;}
+    #navBAR{display: none;}
+    #navBar a{text-align: center;}
+    #logo{visibility: hidden;}
+    h2{text-align: center;}
+    h1{text-align: center; font-size: 0.5rem;}
+}
+
+@media only screen and (max-width: 48rem){
+    .col-4of12{width: 100%;}
+    .col-6of12{width: 100%;}
+    .col-2of12{width: 100%;}
+    .row{width: 100%;}
+    #topBtn{display: none;}
+    #navbtn{visibility: visible;}
+    #navBAR{display: none;}
+    #navBar a{text-align: center;}
+    #logo{visibility: hidden;}
+    h2{text-align: center;}
+    h1{text-align: center; font-size: 0.5rem;}   
+}
+
+@media only screen and (max-width: 64rem){
+    
+}
